@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/systeminfo"/>
+    <qresource prefix="/">
+        <file>resource/day/background.png</file>
+        <file>resource/day/button_click.png</file>
+        <file>resource/day/button_normal.png</file>
+        <file>resource/share/module_normal.png</file>
+        <file>resource/share/module_OTA.png</file>
+        <file>resource/day/white.png</file>
+        <file>resource/day/back_often.png</file>
+        <file>resource/day/backup_click.png</file>
+        <file>resource/day/logo.png</file>
+        <file>resource/day/onwhite1.png</file>
+        <file>resource/day/onwhite2.png</file>
+        <file>resource/day/shrink_normal.png</file>
+        <file>resource/day/shrink_click.png</file>
+        <file>resource/day/unfold_normal.png</file>
+        <file>resource/day/unfold_click.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>928</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{background-image:url(:/resource/day/background.png);}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>36</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image:url(:/resource/day/back_often.png)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/resource/day/返回_常态.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>56</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>阿里巴巴普惠体 R</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:bold 24px;
+font: 24px &quot;阿里巴巴普惠体 R&quot;;
+border-color: argb(143,15, 21, 32);</string>
+   </property>
+   <property name="text">
+    <string>当前版本信息</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>148</y>
+     <width>834</width>
+     <height>382</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/resource/day/white.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>176</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:bold 20px;
+font: 20px &quot;阿里巴巴普惠体 R&quot;;
+border-color: argb(143,15, 21, 32);</string>
+   </property>
+   <property name="text">
+    <string>系统应用</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>219</y>
+     <width>761</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+border-color: rgb(15, 21, 32);
+</string>
+        </property>
+        <property name="text">
+         <string>OTA</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">font:bold 24px;
+font: 24px &quot;阿里巴巴普惠体 M&quot;;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>V0.4.0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+
+font:bold 24px;
+
+border-color: rgb(128, 128, 128);</string>
+        </property>
+        <property name="text">
+         <string>相册</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>V0.1.0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(128, 128, 128);</string>
+        </property>
+        <property name="text">
+         <string>语音</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>V2.2.0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">font:bold 24px;
+border-color: rgb(15, 21, 32);
+font: 24px &quot;阿里巴巴普惠体 M&quot;;</string>
+        </property>
+        <property name="text">
+         <string>地图</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>V0.7.0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>自动泊车</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+
+font:bold 24px;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>V2.1.0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_16">
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(15, 21, 32);
+</string>
+        </property>
+        <property name="text">
+         <string>车控</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_15">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24px &quot;阿里巴巴普惠体 M&quot;;
+font:bold 24px;
+border-color: rgb(15, 21, 32);</string>
+        </property>
+        <property name="text">
+         <string>0.7.0.18</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

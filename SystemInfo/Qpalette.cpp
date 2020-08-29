@@ -1,0 +1,1 @@
+QWidget *widget=new QWidget;
